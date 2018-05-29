@@ -1,0 +1,246 @@
+body{
+	background: white;
+	margin:0;
+	font-family: 'Open Sans', sans-serif;
+	background: #E6ECF0;
+}
+.static{
+	width: 100%;
+	height: 50px;
+	background: #69CBF8;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 1;
+}
+#banner{
+	height: 400px;
+	width: 100%;
+	background-image: url(../img/puppy.jpg);
+	background-size: 100%;
+	background-position: 0 12%;
+}
+#followers{
+	height: 60px;
+	background:#FFF;
+	padding-top: 8px;
+	box-sizing: border-box;
+	position: relative;
+	margin-bottom: 20px;
+	padding-left: 26%;
+}
+.social{
+	display: inline-block;
+	padding-left: 20px;
+	box-sizing: border-box;
+}
+.social h6{
+	margin:0;
+	font-size: 0.8em;
+	color: #66757f;
+	font-weight: lighter;
+}
+.social a{
+	font-size: 1.3em;
+	font-weight: bold;
+	color: #66757f;
+	padding-bottom: 2px;
+	text-decoration: none;
+}
+.social a:hover{
+	color: #69CBF8;
+	border-bottom: 3px solid #69CBF8;
+	transition: border ease .4s;
+}
+#active{
+	color: #69CBF8;
+	border-bottom: 3px solid #69CBF8;
+}
+#profile{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background-image: url(../img/perfil.jpg);
+	background-size: 400px;
+	background-position: 40% 0;
+	border: 5px solid #FFF;
+	margin: 0 auto;
+	display: inline-block;
+	position: absolute;
+	left: 6%;
+	bottom: -50px;
+}
+.container-personal{
+	margin-left: 5%;
+	width: 20%;
+	box-sizing: border-box;
+	display: inline-block;
+	vertical-align: text-top;
+	padding: 30px; 
+	background: #FFF;
+	box-shadow: 2px 2px 5px #9c9c9c;
+	
+}
+
+.container-personal h2{
+	margin: 0;
+	font-size: 3em;
+	text-align: center;
+	color: #272727;
+}
+.container-personal h3{
+	margin: 0;
+	color: white;
+	text-align: center;
+	font-weight: lighter;
+	background-color: #272727;
+	letter-spacing: 8px;
+}
+.container-personal p{
+	font-size: .9em;
+	color: #272727;
+}
+
+
+#post-section{
+	width: 45%;
+	display: inline-block;
+	vertical-align: text-top;
+	margin-left: 2%;
+}
+.container{
+	width: 100%;
+	background:#FFF;
+	padding: 20px;
+	box-sizing: border-box;	
+	display: inline-block;
+	box-shadow: 2px 2px 5px #9c9c9c;
+}
+
+#btn{
+	border:none;
+	padding: 10px 15px;
+	margin-top: 20px;
+/*	background: #69CBF8;*/
+	color:#FFF;
+	outline: none;
+}
+
+#counter{
+	display: inline-block;
+	float: right;
+	font-size: 1.8em;
+	margin-top: 20px;
+	color: #69CBF8;
+}
+textarea{
+	display: block;
+	width: 97%;
+	padding: 10px;
+	overflow: hidden;
+	height: auto;
+	resize: none;
+	outline: none;
+}
+
+.comment{
+	margin: 10px auto;	
+	width: 100%;
+	background: #FFF;
+	margin-bottom: 30px;
+	padding:5px 20px 20px 20px;
+	box-sizing: border-box;
+	box-shadow: 2px 2px 5px #9c9c9c;
+
+}
+.comment p{
+	padding-left:15px; 
+	width: 65%;
+	display: inline-block;
+	font-size: .9em;
+	margin: 0;
+	word-wrap: break-word;
+	vertical-align: middle;
+}
+.comment h5{
+	width: 60px;
+	display: block;
+	margin: 0;
+	color: #272727;
+	font-size: 1em;
+	text-align: center;
+}
+
+#extras{
+	display: inline-block;
+	width: 20%;
+	margin-left: 2%;
+	vertical-align: text-top;
+	padding: 20px;
+	background: #FFF;
+	box-shadow: 2px 2px 5px #9c9c9c;
+	text-align: center;
+}
+#extras h2{
+	margin:0;
+	color: #272727;
+}
+#extras p{
+	font-size: .9em;
+	color: #272727;
+}
+#btn-register{
+	border: none;
+	background: #E35769;
+	padding: 20px;
+	font-size: 1em;
+	color: #FFF;
+	font-weight: bolder;
+	letter-spacing: 2px;
+	border-radius: 50px;
+	transition: background ease .5s;
+	outline: none;
+}
+
+#btn-register:hover{
+	background: #DD2E44;
+}
+.miniPic{
+	width: 50px;
+	height: 50px;
+	border-radius: 100%;
+	background-image: url(../img/perfil.jpg);
+	background-size: 130px;
+	background-position: 42% 10%;
+	display: inline-block;
+	vertical-align: middle;
+	margin: 6px;
+}
+.icons{
+	display: inline-block;
+	width: 80px;
+	clear: both;
+	padding-left: 10px;
+}
+.fa.fa-heart{
+	font-size: 20px;
+	margin: 4px;
+	cursor: pointer;
+}
+.fa.fa-trash{
+	font-size: 20px;
+	margin: 4px;
+	cursor: pointer;
+}
+.icons .fa:hover{
+	color: #69CBF8;
+}
+.red{
+	color: #e5003a;
+	transition: color ease .3s;
+	cursor: pointer;
+}
+#time-size{
+	font-size: .7em;
+	color: #585f78;
+}

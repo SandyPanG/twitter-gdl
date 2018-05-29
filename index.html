@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Twitter</title>
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:600,800" rel="stylesheet">
+	<link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body>
+	<header>
+		<div class="static"></div>
+		<div id="banner"></div>
+		<div id="followers">
+			<div id="profile"></div>
+			<div class="social">
+				<h6>Tweets</h6>
+				<a href="" id="active">99K</a>
+			</div>
+			<div class="social">
+				<h6>Seguidores</h6>
+				<a href="">45,9K</a>
+			</div>
+			<div class="social">
+				<h6>Me Gusta</h6>
+				<a href="">33K</a>
+			</div>
+		</div>
+	</header>
+	<section>
+		<div class="container-personal">
+			<h2 id="user">PANDA</h2>
+			<h3>THE GIANT</h3>
+			<p>Hola, <br> soy Panda, un oso cariñoso y experto en tecnología.</p>
+			<p>Uso mis habilidades para encontrar pareja en un sitio de citas, sin embargo, mi romanticismo es nulo.</p>
+			<p>Soy vegetariano, aunque alérgico al maní y las nueces</p>
+			<hr>
+			<a href="">TINDER</a>
+		</div>
+		<div id="post-section">
+			<div class="container">
+				<textarea class="txt" id="text" rows="1" onkeydown="counter(this)" onkeyup="counter(this)" placeholder="¿Qué estás pensando?"></textarea>
+				<button type="button" id="btn" class="btn"> TWEET</button>
+				<span id="counter">140</span>
+			</div>
+		</div>
+		<div id="extras">
+			<h2>¿Nuevo en Twitter?</h2>
+			<p>¡Regístrate ahora para obtener tu propia cronología personalizada!</p>
+			<button id="btn-register">Regístrate</button>
+		</div>
+	</section>
+	<script src="https://use.fontawesome.com/7873633050.js"></script>
+	<script src="https://momentjs.com/downloads/moment.js"></script>
+	<script src="assets/js/app.js"></script>
+</body>
+</html>
